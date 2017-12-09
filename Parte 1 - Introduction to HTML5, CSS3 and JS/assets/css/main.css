@@ -1,0 +1,54 @@
+
+ul {
+	display: inline-flex;
+	list-style-type: none;
+}
+
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* Cards */
+
+
+
+
+/* Media-queries */
+
+/*Containers*/
+
+@media (min-width: 320px) {
+	.container {
+		max-width: 100%;
+		width: 280px;
+	}
+}
+
+@media (min-width: 600px) {
+	.container {
+		max-width: 100%;
+		width: 550px;
+	}
+}
+
+
+@media (min-width: 992px) {
+	.container {
+		max-width: 100%;
+		width: 940px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 100%;
+		width: 1150px;
+	}
+}
+
+/* Cols */
+
