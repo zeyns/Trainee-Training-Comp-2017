@@ -14,7 +14,8 @@ $("#btnNewCard").click(function()
 				+"<p>Pokemon</p>"
 			+"</div>"
 		+"</li>"
-	);
+	)
+});
 
 /* When a click occurs in the DOM on a daughter tag of a tag with ID listCards */
 $("#listCards>li").click(function()
