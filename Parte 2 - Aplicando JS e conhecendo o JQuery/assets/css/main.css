@@ -1,0 +1,177 @@
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #F7F8FA;
+}
+
+ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+	list-style-type: none;
+	width: 100%;
+}
+
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.cartoon-brand {
+	width: 250px;
+	height: auto;
+}
+
+.text-center {
+	text-align: center;
+}
+
+/* Buttons */
+
+.btn
+{
+
+    font-size: 1rem;
+    border-radius: .25rem;
+	color: white;
+    padding: .5rem 1rem;
+	background-color: #0275d8;
+    border-color: #0275d8;
+}
+
+.btn:hover,
+.btn:focus
+{
+	background-color: #064e8c;
+    border-color: #064e8c;
+}
+
+/* Margins and Paddings */
+
+.mtop30
+{
+	margin-top: 30px;
+}
+
+.mtop50 {
+	margin-top: 50px;
+}
+
+.mbottom50
+{
+	margin-bottom: 50px;
+}
+
+/* Card */
+
+.img-card
+{
+	width: 100%;
+	height: auto;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.card>p
+{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.card {
+	padding-bottom: 10px;
+	background-color: white;
+	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 2px 4px 12px #777;
+}
+
+.card:hover,
+.card:focus
+{
+
+	box-shadow: 1px 3px 8px #777;
+}
+
+
+/* Media-queries */
+
+@media  (min-width: 320px) and (max-width: 600px){
+
+	.container {
+		max-width: 100%;
+		width: 90%;
+	}
+
+	.col-sm-12
+	{
+		width: 100%;    
+		-webkit-flex: 0 0 100%;
+    	-ms-flex: 0 0 100%;
+    	flex: 0 0 100%;
+	}
+
+}
+
+@media  (min-width: 600px) and (max-width: 992px) {
+	
+	.container {
+		max-width: 100%;
+		width: 90%;
+	}
+
+	.col-md-3
+	{
+		width: 25%;
+		-webkit-flex: 0 0 25%;
+    	-ms-flex: 0 0 25%;
+    	flex: 0 0 25%;
+	}
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	
+	.container {
+		max-width: 100%;
+		width: 90%;
+	}
+
+	.col-l-3
+	{
+		width: 25%;
+		-webkit-flex: 0 0 25%;
+    	-ms-flex: 0 0 25%;
+    	flex: 0 0 25%;
+	}
+}
+
+@media (min-width: 1200px) {
+	
+	.container {
+		max-width: 100%;
+		width: 1150px;
+	}
+	
+	.col-xl-3
+	{
+		max-width: 25%;
+		-webkit-flex: 0 0 25%;
+    	-ms-flex: 0 0 25%;
+    	flex: 0 0 25%;
+	}
+}
+

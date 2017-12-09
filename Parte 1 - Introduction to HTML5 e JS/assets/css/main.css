@@ -29,6 +29,50 @@ ul {
 	width: 100%;
 }
 
+.cartoon-brand {
+	width: 250px;
+	height: auto;
+}
+
+.text-center {
+	text-align: center;
+}
+
+/* Buttons */
+
+.btn
+{
+
+    font-size: 1rem;
+    border-radius: .25rem;
+	color: white;
+    padding: .5rem 1rem;
+	background-color: #0275d8;
+    border-color: #0275d8;
+}
+
+.btn:hover,
+.btn:focus
+{
+	background-color: #064e8c;
+    border-color: #064e8c;
+}
+
+/* Margins and Paddings */
+
+.mtop30
+{
+	margin-top: 30px;
+}
+
+.mtop50 {
+	margin-top: 50px;
+}
+
+.mbottom50
+{
+	margin-bottom: 50px;
+}
 
 /* Card */
 
@@ -51,14 +95,14 @@ ul {
 	background-color: white;
 	margin: 10px;
 	border-radius: 5px;
-	box-shadow: 2px 4px 12px #AAA;
+	box-shadow: 2px 4px 12px #777;
 }
 
 .card:hover,
 .card:focus
 {
 
-	box-shadow: 1px 3px 8px #AAA;
+	box-shadow: 1px 3px 8px #777;
 }
 
 
@@ -103,7 +147,7 @@ ul {
 	
 	.container {
 		max-width: 100%;
-		width: 940px;
+		width: 90%;
 	}
 
 	.col-l-3
