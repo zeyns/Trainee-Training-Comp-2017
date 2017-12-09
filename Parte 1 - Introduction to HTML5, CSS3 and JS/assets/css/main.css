@@ -1,7 +1,15 @@
 
 ul {
-	display: inline-flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
 	list-style-type: none;
+	width: 100%;
 }
 
 .container {
@@ -9,7 +17,11 @@ ul {
 	padding-right: 15px;
 	margin-left: auto;
 	margin-right: auto;
+	width: 100%;
 }
+
+
+
 
 
 /* Cards */
@@ -19,36 +31,70 @@ ul {
 
 /* Media-queries */
 
-/*Containers*/
+@media  (min-width: 320px) and (max-width: 600px){
 
-@media (min-width: 320px) {
 	.container {
 		max-width: 100%;
-		width: 280px;
+		width: 90%;
 	}
+
+	.col-sm-12
+	{
+		width: 100%;    
+		-webkit-flex: 0 0 100%;
+    	-ms-flex: 0 0 100%;
+    	flex: 0 0 100%;
+	}
+
 }
 
-@media (min-width: 600px) {
+@media  (min-width: 600px) and (max-width: 992px) {
+	
 	.container {
 		max-width: 100%;
-		width: 550px;
+		width: 90%;
 	}
+
+	.col-md-3
+	{
+		width: 25%;
+		-webkit-flex: 0 0 25%;
+    	-ms-flex: 0 0 25%;
+    	flex: 0 0 25%;
+	}
+
 }
 
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1200px) {
+	
 	.container {
 		max-width: 100%;
 		width: 940px;
 	}
+
+	.col-l-3
+	{
+		width: 25%;
+		-webkit-flex: 0 0 25%;
+    	-ms-flex: 0 0 25%;
+    	flex: 0 0 25%;
+	}
 }
 
 @media (min-width: 1200px) {
+	
 	.container {
 		max-width: 100%;
 		width: 1150px;
 	}
+	
+	.col-xl-3
+	{
+		max-width: 25%;
+		-webkit-flex: 0 0 25%;
+    	-ms-flex: 0 0 25%;
+    	flex: 0 0 25%;
+	}
 }
-
-/* Cols */
 
