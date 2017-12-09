@@ -1,4 +1,13 @@
 
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #F7F8FA;
+}
+
 ul {
     display: -webkit-box;
     display: -webkit-flex;
@@ -21,12 +30,36 @@ ul {
 }
 
 
+/* Card */
 
+.img-card
+{
+	width: 100%;
+	height: auto;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
 
+.card>p
+{
+	text-align: center;
+	margin-top: 10px;
+}
 
-/* Cards */
+.card {
+	padding-bottom: 10px;
+	background-color: white;
+	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 2px 4px 12px #AAA;
+}
 
+.card:hover,
+.card:focus
+{
 
+	box-shadow: 1px 3px 8px #AAA;
+}
 
 
 /* Media-queries */
